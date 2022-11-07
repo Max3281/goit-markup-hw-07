@@ -1,0 +1,40 @@
+/* features */
+.features {
+    padding-top: 94px;
+}
+
+.section-restrict {
+    padding: 94px 0px;
+}
+
+.features__flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    list-style: none;
+}
+
+.features__block {
+    width: 270px;
+}
+
+.features__icon {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+}
+
+.features__headers {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
