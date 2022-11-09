@@ -21,13 +21,10 @@
 
   <body>
     <!--header-->
-    <header>
+    <header class="header-border">
       <div class="container">
         <div class="header">
-          <a class="logo" href="./index.html"
-            >Web
-            <span class="logo__header">Studio</span>
-          </a>
+          <a class="logo" href="./index.html">Web<span class="logo__header">Studio</span> </a>
           <nav>
             <ul class="ul-list header-navigation">
               <li>
@@ -38,7 +35,7 @@
             </ul>
           </nav>
           <ul class="ul-list header-navigation container__header-navigation">
-            <li>
+            <li class="ul-list__text">
               <a class="ul-list__link" href="info@devstudio.com">
                 <svg width="16" height="12">
                   <use href="./images/icons.svg#icon-email"></use>
@@ -46,7 +43,7 @@
                 <p>info@devstudio.com</p>
               </a>
             </li>
-            <li>
+            <li class="ul-list__text">
               <a class="ul-list__link" href="tel:+380961111111">
                 <svg width="10" height="20">
                   <use href="./images/icons.svg#icon-smartphone"></use>
@@ -129,19 +126,19 @@
           <ul class="ul-list container__flex">
             <li class="container__width container__block">
               <div class="container__description">
-                <h3>Десктопні додатки</h3>
+                <h3 class="container__title">Десктопні додатки</h3>
               </div>
               <img src="images/handsonkeyboards.jpg" alt="руки_на_клавіатурі" width="370" />
             </li>
             <li class="container__width container__block">
               <div class="container__description">
-                <h3>Мобільні додатки</h3>
+                <h3 class="container__title">Мобільні додатки</h3>
               </div>
               <img src="images/laptopandphone.jpg" alt="ноутбук_та_телефон" width="370" />
             </li>
             <li class="container__width container__block">
               <div class="container__description">
-                <h3>Дизайнерські рішення</h3>
+                <h3 class="container__title">Дизайнерські рішення</h3>
               </div>
               <img src="images/touchpad.jpg" alt="планшет" width="370" />
             </li>
@@ -257,7 +254,7 @@
                   </li>
                   <li>
                     <a class="ourteam__icons" href="">
-                      <svg class="" width="20" height="20">
+                      <svg class="ourteam__svg" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -362,10 +359,7 @@
     <footer class="footer">
       <div class="container footer__flex">
         <div>
-          <a class="logo" href="/index.html"
-            >Web
-            <span class="logo__footer">Studio</span>
-          </a>
+          <a class="logo" href="/index.html">Web<span class="logo__footer">Studio</span> </a>
           <address>
             <ul class="ul-list">
               <li class="footer__address">
@@ -456,7 +450,7 @@
 
         <form class="modal-window__contact" action="#" name="contact-form">
           <label class="modal-window__text" for="persons-name">Ім'я</label>
-          <div class="modal__form">
+          <div class="modal-window__form">
             <input class="modal-window__space" id="persons-name" type="text" />
             <svg class="modal-window__svg" width="12" height="12">
               <use href="./images/icons.svg#icon-person-icon"></use>
@@ -464,7 +458,7 @@
           </div>
 
           <label class="modal-window__text" for="persons-telephone">Телефон</label>
-          <div class="modal__form">
+          <div class="modal-window__form">
             <input class="modal-window__space" id="persons-telephone" type="tel" />
             <svg class="modal-window__svg" width="12" height="12">
               <use href="./images/icons.svg#icon-phone-icon"></use>
@@ -472,7 +466,7 @@
           </div>
 
           <label class="modal-window__text" for="persons-email">Пошта</label>
-          <div class="modal__form">
+          <div class="modal-window__form">
             <input class="modal-window__space" id="persons-email" type="email" />
             <svg class="modal-window__svg" width="12" height="12">
               <use href="./images/icons.svg#icon-email-icon"></use>
@@ -490,17 +484,17 @@
           <div class="modal-window__tearms">
             <label class="modal-window__label" for="tearms-checkbox"
               >Погоджуюся з розсилкою та приймаю
-              <a class="modal-window__link" href="#">Умови договору</a></label
-            >
-            <input
-              class="modal-window__checkbox visually-hidden"
-              id="tearms-checkbox"
-              type="checkbox"
-              name="tearms-checkbox"
-            />
-            <svg class="modal-window__tearmsicon" width="16" height="16">
-              <use href="./images/icons.svg#icon-icon-check"></use>
-            </svg>
+              <a class="modal-window__link" href="#">Умови договору</a>
+              <input
+                class="modal-window__checkbox visually-hidden"
+                id="tearms-checkbox"
+                type="checkbox"
+                name="tearms-checkbox"
+              />
+              <svg class="modal-window__tearmsicon" width="16" height="16">
+                <use href="./images/icons.svg#icon-icon-check"></use>
+              </svg>
+            </label>
           </div>
 
           <button class="modal-window__button" type="submit">Відправити</button>

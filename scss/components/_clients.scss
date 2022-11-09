@@ -1,32 +1,32 @@
 /* clients */
 .clients__flex {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
 .client__list {
-    width: calc((100% - 150px) / 6);
-    height: 92px;
+  width: calc((100% - 150px) / 6);
+  height: 92px;
 }
 
 .client__block {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    fill: var(--color-secondary);
-    transition: border 250ms, fill 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: var(--color-svg);
+  transition: border 250ms, fill 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client__block:hover,
 .client__block:focus {
-    border: 1px solid var(--color-hover);
-    fill: var(--color-hover);
+  border: 1px solid var(--color-hover);
+  fill: var(--color-hover);
 }
